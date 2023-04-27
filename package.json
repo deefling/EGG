@@ -1,0 +1,26 @@
+{
+  "name": "egg",
+  "version": "1.0.0",
+  "description": "HELLO WORLD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deefling/EGG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deefling/EGG/issues"
+  },
+  "homepage": "https://github.com/deefling/EGG#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.22"
+  }
+}
