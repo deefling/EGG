@@ -1,0 +1,18 @@
+set up graphQL on server machine or free hosting
+establish connection to graphQL 
+
+GraphQL driver class
+- read operation (single & plural)
+- create operation
+- delete operation
+- update operation
+
+Connect driver methods to express api
+Host express API & test all endpoints with postman
+
+Connect express API endpoint to github pages
+Test across RLES machines (open up ports/firewall)
+Write all endpoint on GH page, use forms as needed
+Spruce up w/ CSS
+Authentication
+Custom Logging

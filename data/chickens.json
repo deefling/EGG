@@ -1,0 +1,272 @@
+[
+   {
+      "id": "chk-101",
+      "name": "BARON TAMAGO",
+      "age": 3,
+      "breed": "Rhode Island Red",
+      "color": "orange",
+      "avgEggsPerWeek": 5,
+      "farmID": 4
+   },
+   {
+      "id": "chk-102",
+      "name": "DON QUIXOTE",
+      "age": 2,
+      "breed": "Silkie",
+      "color": "white",
+      "avgEggsPerWeek": 6,
+      "farmID": 2
+   },
+   {
+      "id": "chk-103",
+      "name": "DAEMON TARGARYEN",
+      "age": 8,
+      "breed": "Plymouth Rock",
+      "color": "blue",
+      "avgEggsPerWeek": 2,
+      "farmID": 5
+   },
+   {
+      "id": "chk-104",
+      "name": "CHICKEN LITTLE",
+      "age": 1,
+      "breed": "Leghorn",
+      "color": "white",
+      "avgEggsPerWeek": 7,
+      "farmID": 1
+   },
+   {
+      "id": "chk-105",
+      "name": "MRS. FEATHERBOTTOM",
+      "age": 2,
+      "breed": "Barred Plymouth Rock",
+      "color": "black and white",
+      "avgEggsPerWeek": 4,
+      "farmID": 3
+   },
+   {
+      "id": "chk-106",
+      "name": "THE COLONEL",
+      "age": 5,
+      "breed": "Cornish Cross",
+      "color": "white",
+      "avgEggsPerWeek": 0,
+      "farmID": 1
+   },
+   {
+      "id": "chk-107",
+      "name": "FOWL PLAY",
+      "age": 1,
+      "breed": "Australorp",
+      "color": "black",
+      "avgEggsPerWeek": 5,
+      "farmID": 4
+   },
+   {
+      "id": "chk-108",
+      "name": "HEN SOLO",
+      "age": 4,
+      "breed": "Buff Orpington",
+      "color": "brown",
+      "avgEggsPerWeek": 3,
+      "farmID": 2
+   },
+   {
+      "id": "chk-109",
+      "name": "KFC",
+      "age": 6,
+      "breed": "Broiler",
+      "color": "white",
+      "avgEggsPerWeek": 0,
+      "farmID": 5
+   },
+   {
+      "id": "chk-110",
+      "name": "DARTH WING",
+      "age": 2,
+      "breed": "Brahma",
+      "color": "black",
+      "avgEggsPerWeek": 4,
+      "farmID": 1
+   },
+   {
+      "id": "chk-111",
+      "name": "LUCILLE",
+      "age": 4,
+      "breed": "Barred Plymouth Rock",
+      "color": "black and white",
+      "avgEggsPerWeek": 4,
+      "farmID": 5
+   },
+   {
+      "id": "chk-112",
+      "name": "MARTY",
+      "age": 2,
+      "breed": "Buff Orpington",
+      "color": "buff",
+      "avgEggsPerWeek": 5,
+      "farmID": 1
+   },
+   {
+      "id": "chk-113",
+      "name": "ROSIE",
+      "age": 1,
+      "breed": "Wyandotte",
+      "color": "silver laced",
+      "avgEggsPerWeek": 6,
+      "farmID": 4
+   },
+   {
+      "id": "chk-114",
+      "name": "GOLDIE",
+      "age": 3,
+      "breed": "Golden Comet",
+      "color": "red",
+      "avgEggsPerWeek": 4,
+      "farmID": 3
+   },
+   {
+      "id": "chk-115",
+      "name": "SNOWBALL",
+      "age": 2,
+      "breed": "White Leghorn",
+      "color": "white",
+      "avgEggsPerWeek": 6,
+      "farmID": 2
+   },
+   {
+      "id": "chk-116",
+      "name": "PEPPER",
+      "age": 1,
+      "breed": "Australorp",
+      "color": "black",
+      "avgEggsPerWeek": 5,
+      "farmID": 1
+   },
+   {
+      "id": "chk-117",
+      "name": "LUCY",
+      "age": 3,
+      "breed": "Easter Egger",
+      "color": "various",
+      "avgEggsPerWeek": 4,
+      "farmID": 2
+   },
+   {
+      "id": "chk-118",
+      "name": "BROWNIE",
+      "age": 2,
+      "breed": "Rhode Island Red",
+      "color": "red",
+      "avgEggsPerWeek": 5,
+      "farmID": 3
+   },
+   {
+      "id": "chk-119",
+      "name": "BO",
+      "age": 1,
+      "breed": "Brahma",
+      "color": "buff",
+      "avgEggsPerWeek": 4,
+      "farmID": 4
+   },
+   {
+      "id": "chk-120",
+      "name": "JACK SPARROW",
+      "age": 2,
+      "breed": "Araucana",
+      "color": "black",
+      "avgEggsPerWeek": 4,
+      "farmID": 1
+   },
+   {
+      "id": "chk-121",
+      "name": "GIZMO",
+      "age": 1,
+      "breed": "Brahma",
+      "color": "gray",
+      "avgEggsPerWeek": 5,
+      "farmID": 2
+   },
+   {
+      "id": "chk-122",
+      "name": "FLUFFY",
+      "age": 3,
+      "breed": "Buff Orpington",
+      "color": "brown",
+      "avgEggsPerWeek": 3,
+      "farmID": 3
+   },
+   {
+      "id": "chk-123",
+      "name": "HEDWIG",
+      "age": 4,
+      "breed": "White Leghorn",
+      "color": "white",
+      "avgEggsPerWeek": 6,
+      "farmID": 4
+   },
+   {
+      "id": "chk-124",
+      "name": "COCO",
+      "age": 2,
+      "breed": "Barred Plymouth Rock",
+      "color": "black and white",
+      "avgEggsPerWeek": 4,
+      "farmID": 5
+   },
+   {
+      "id": "chk-125",
+      "name": "HEISENBERG",
+      "age": 1,
+      "breed": "Jersey Giant",
+      "color": "black",
+      "avgEggsPerWeek": 3,
+      "farmID": 1
+   },
+   {
+      "id": "chk-126",
+      "name": "ZORRO",
+      "age": 3,
+      "breed": "Silkie",
+      "color": "white",
+      "avgEggsPerWeek": 2,
+      "farmID": 2
+   },
+   {
+      "id": "chk-127",
+      "name": "THOR",
+      "age": 2,
+      "breed": "New Hampshire Red",
+      "color": "red",
+      "avgEggsPerWeek": 5,
+      "farmID": 3
+   },
+   {
+      "id": "chk-128",
+      "name": "POCAHONTAS",
+      "age": 4,
+      "breed": "Easter Egger",
+      "color": "green",
+      "avgEggsPerWeek": 4,
+      "farmID": 4
+   },
+   {
+      "id": "chk-129",
+      "name": "BAMBI",
+      "age": 1,
+      "breed": "Black Australorp",
+      "color": "black",
+      "avgEggsPerWeek": 6,
+      "farmID": 5
+   },
+   {
+      "id": "chk-130",
+      "name": "SCAR",
+      "age": 3,
+      "breed": "Dominique",
+      "color": "black and white",
+      "avgEggsPerWeek": 3,
+      "farmID": 1
+   }
+]

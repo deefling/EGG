@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Happy Hen Farms",
+      "state": "California",
+      "city": "Fresno",
+      "freeRange": true,
+      "distributedTo": ["KFC", "McDonald's", "Burger King"]
+    },
+    {
+      "id": 2,
+      "name": "Sunset Poultry Co.",
+      "state": "Texas",
+      "city": "Austin",
+      "freeRange": false,
+      "distributedTo": ["Chick-fil-A", "Popeyes"]
+    },
+    {
+      "id": 3,
+      "name": "Golden Rooster Farms",
+      "state": "Georgia",
+      "city": "Atlanta",
+      "freeRange": true,
+      "distributedTo": ["KFC", "Bojangles"]
+    },
+    {
+      "id": 4,
+      "name": "Red Barn Farms",
+      "state": "Kentucky",
+      "city": "Louisville",
+      "freeRange": true,
+      "distributedTo": ["KFC", "Church's Chicken"]
+    },
+    {
+      "id": 5,
+      "name": "Blue Sky Poultry",
+      "state": "Colorado",
+      "city": "Denver",
+      "freeRange": false,
+      "distributedTo": ["Popeyes", "Raising Cane's"]
+    }
+  ]
+  
