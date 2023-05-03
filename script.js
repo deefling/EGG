@@ -106,7 +106,7 @@ getAllButton.addEventListener("click", async() => {
     const content = await rawResponse.json();
     
     console.log(content);
-    resultWindow.innerHTML = content
+    resultWindow.innerHTML = content.toString()
 
 })
 
