@@ -91,7 +91,7 @@ sendGet = () => {
       })();
 }
 
-getButton.addEventListener("click", () => {
+getAllButton.addEventListener("click", () => {
     formWindow.innerHTML = ""
 
     (async () => {
