@@ -1,6 +1,3 @@
-GraphQL driver class
-- update operation
-
 Connect driver methods to express api
 Host express API & test all endpoints with postman
 
@@ -9,3 +6,5 @@ Test across RLES machines (open up ports/firewall)
 Write all endpoint on GH page, use forms as needed
 Spruce up w/ CSS
 Authentication
+
+Finish site book - write up all things you did yo go above and beyond
