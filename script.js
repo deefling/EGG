@@ -9,10 +9,11 @@ var decapitateButton = document.getElementById("decapitate");
 var easterButton = document.getElementById("easterEgg")
 
 hatchButton.addEventListener("click", () => {
+    formWindow.innerHTML = ""
     var form = document.createElement("form");
     form.innerHTML = `
     <label for="id">ID:</label><br>
-    <input type="text" id="id" name="id"><br><br>
+    <input type="text" id="id" name="id"><br>
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name"><br>
     <label for="breed">Breed:</label><br>
@@ -21,7 +22,7 @@ hatchButton.addEventListener("click", () => {
     <input type="text" id="color" name="color"><br>
     <label for="avgEggsPerWeek">Avg. Eggs per Week:</label><br>
     <input type="text" id="avgEggsPerWeek" name="avgEggsPerWeek"><br>
-    <input type="button" value="Submit" id="hatchButton">`; 
+    <button id="hatchButton">Submit</button>`; 
     formWindow.appendChild(form);
     document.getElementById("hatchButton").addEventListener("click", () => {sendHatch()});
 })
@@ -61,11 +62,12 @@ sendHatch = () => {
 }
 
 getButton.addEventListener("click", () => {
+    formWindow.innerHTML = ""
     var form = document.createElement("form");
     form.innerHTML = `
     <label for="id">ID:</label><br>
     <input type="text" id="id" name="id"><br><br>
-    <input type="button" value="Submit" id="getButton">`; 
+    <button id="getButton">Submit</button>`;  
     formWindow.appendChild(form);
     document.getElementById("getButton").addEventListener("click", () => {sendGet()});
 })
@@ -88,3 +90,22 @@ sendGet = () => {
         resultWindow.innerHTML = content
       })();
 }
+
+getButton.addEventListener("click", () => {
+    formWindow.innerHTML = ""
+
+    (async () => {
+        const rawResponse = await fetch(`http://192.168.44.18:8000/getAllChickens`, {
+            method: 'GET',
+            headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+            },
+        });
+        const content = await rawResponse.json();
+      
+        console.log(content);
+        resultWindow.innerHTML = content
+      })();
+
+})

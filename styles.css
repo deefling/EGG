@@ -11,8 +11,18 @@ body{
 }
 
 #btnPanel{
-    border: 1px solid black;
+    border: 3px solid #3acb3e;
     width: 55vw;
+    padding: 5px;
+}
+
+button {
+    background-color: #3acb3e;
+    padding: 14px 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 5px;
+    border:  none;
 }
 
 #dataPanel{
@@ -22,11 +32,13 @@ body{
 }
 
 #formWindow{
-    border: 1px solid black;
+    padding: 5px;
+    border: 3px solid #3acb3e;
     height: 50vh
 }
 
 #resultWindow{
-    border: 5px solid black;
-    height: 50vh
+    border: 3px solid #3acb3e;
+    height: 50vh;
+    overflow: scroll
 }
