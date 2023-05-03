@@ -105,10 +105,18 @@ getAllButton.addEventListener("click", async() => {
     const content = await rawResponse.json();
     
     console.log(content);
-    resultWindow.innerHTML = content.data.getAllChickens
+    resultWindow.innerHTML = content.data.getAllChickens.toString()
 
 })
 
 easterButton.addEventListener("click", async() => {
-    window.location.href = "http://192.168.44.18:8000/easterEgg";
+    
+    formWindow.innerHTML = ""
+
+    const rawResponse = await fetch(`http://192.168.44.18:8000/easterEgg`, {
+        method: 'GET',
+        mode: 'cors'
+    });
+    
+
 })
