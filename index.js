@@ -24,14 +24,9 @@ server.listen(8000, api())
 
 function api (){
 
-    server.get('/home', (req, res) => {
-        res.set('Content-Type', 'text/html');
-        res.send(Buffer.from('<h2>Endpoints</h2></br><a href="">/hatch (dead link for now)</a></br><a href="">/mutateChicken (dead link for now)</a></br><a href="">/decapitate (dead link for now)</a></br><a href="http://localhost:8000/getChicken">/getChicken</a></br><a href="http://localhost:8000/getAllChickens">/getAllChickens</a></br><a href="http://localhost:8000/easterEgg">/easterEgg</a>'));
-    })
-
     //CREATE
     server.post('/hatch', async (req, res) => {
-        var result = await driver.createChicken(req.body)
+        var result = await driver.hatch(req.body)
         res.send(result);
     })
 

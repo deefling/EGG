@@ -215,5 +215,12 @@
     "method": "PUT",
     "clientAddress": "::1",
     "time": "2023-05-03T02:51:05.265Z"
+  },
+  {
+    "id": "Sywpgbe4n",
+    "url": "/hatch",
+    "method": "OPTIONS",
+    "clientAddress": "::1",
+    "time": "2023-05-03T15:41:50.954Z"
   }
 ]

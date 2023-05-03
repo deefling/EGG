@@ -111,7 +111,7 @@ exports.getAllChickens = async() => {
 
 
 //CREATE
-exports.createChicken = async (obj) => {
+exports.hatch = async (obj) => {
   var result = null
 
   await graphql({
