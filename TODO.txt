@@ -1,8 +1,2 @@
-Write up GH page links/redirects/(ajax??)
-Make it as several buttons, some will pop up a form, have a window on the bottom for data dumping
 Connect all forms/buttons to appropriate API endpoint
-Dump all data calls in window
-Spruce up w/ CSS
 Authentication
-Finish writing postman calls
-Finish site book - write up all things you did yo go above and beyond

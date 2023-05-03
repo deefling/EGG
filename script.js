@@ -28,7 +28,6 @@ hatchButton.addEventListener("click", () => {
 })
 
 function sendHatch() {
-    //TODO - deal with farm stuff?
     console.log("HATCHING")
 
     var _id = document.getElementById("id");
@@ -106,7 +105,7 @@ getAllButton.addEventListener("click", async() => {
     const content = await rawResponse.json();
     
     console.log(content);
-    resultWindow.innerHTML = content.toString()
+    resultWindow.innerHTML = content.data.getAllChickens.toString()
 
 })
 
