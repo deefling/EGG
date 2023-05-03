@@ -27,8 +27,9 @@ hatchButton.addEventListener("click", () => {
     document.getElementById("hatchButton").addEventListener("click", () => {sendHatch()});
 })
 
-sendHatch = () => {
+function sendHatch() {
     //TODO - deal with farm stuff?
+    console.log("HATCHING")
 
     var _id = document.getElementById("id");
     var _name = document.getElementById("name");
@@ -67,13 +68,13 @@ getButton.addEventListener("click", () => {
     var form = document.createElement("form");
     form.innerHTML = `
     <label for="id">ID:</label><br>
-    <input type="text" id="id" name="id"><br><br>
+    <input type="text" id="id" name="id"><br>
     <button id="getButton">Submit</button>`;  
     formWindow.appendChild(form);
     document.getElementById("getButton").addEventListener("click", () => {sendGet()});
 })
 
-sendGet = () => {
+function sendGet() {
 
     var _id = document.getElementById("id");
 
