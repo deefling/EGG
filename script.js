@@ -1,7 +1,6 @@
 var formWindow = document.getElementById("formWindow");
 var resultWindow = document.getElementById("resultWindow");
 
-
 var hatchButton = document.getElementById("hatch");
 
 hatchButton.addEventListener("click", () => {
@@ -25,12 +24,21 @@ sendHatch = () => {
 
     (async () => {
         const rawResponse = await fetch('http://192.168.44.18:8000/hatch', {
-          method: 'POST',
-          headers: {
+            method: 'POST',
+            headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({id: _id, name: _name})
+            },
+            body: JSON.stringify(
+            {
+                id: _id,
+                name: _name,
+                breed: "Brahma",
+                color: "black",
+                avgEggsPerWeek: 6,
+                farmID: 2
+            }
+            )
         });
         const content = await rawResponse.json();
       
