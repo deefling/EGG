@@ -22,7 +22,7 @@ hatchButton.addEventListener("click", () => {
     <input type="text" id="color" name="color"><br>
     <label for="avgEggsPerWeek">Avg. Eggs per Week:</label><br>
     <input type="text" id="avgEggsPerWeek" name="avgEggsPerWeek"><br>
-    <button id="hatchButton">Submit</button>`; 
+    <button type="button" id="hatchButton">Submit</button>`; 
     formWindow.appendChild(form);
     document.getElementById("hatchButton").addEventListener("click", () => {sendHatch()});
 })
@@ -69,7 +69,7 @@ getButton.addEventListener("click", () => {
     form.innerHTML = `
     <label for="id">ID:</label><br>
     <input type="text" id="id" name="id"><br>
-    <button id="getButton">Submit</button>`;  
+    <button type="button" id="getButton">Submit</button>`;  
     formWindow.appendChild(form);
     document.getElementById("getButton").addEventListener("click", () => {sendGet()});
 })
@@ -107,5 +107,15 @@ getAllButton.addEventListener("click", async() => {
     
     console.log(content);
     resultWindow.innerHTML = content
+
+})
+
+easterButton.addEventListener("click", async() => {
+    formWindow.innerHTML = ""
+
+    const rawResponse = await fetch(`http://192.168.44.18:8000/easterEgg`, {
+        method: 'GET',
+    });
+    
 
 })
