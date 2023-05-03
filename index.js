@@ -2,6 +2,7 @@ const express = require('express');
 const server = express();
 const driver = require('./graphDriver.js')
 var db = require('./db.js');
+var cors = require('cors');
 
 
 
@@ -18,6 +19,7 @@ function commLogs(req, res, next) {
     next();
 }
 
+server.use(cors())
 server.use(express.json());
 server.use(commLogs);
 server.listen(8000, api())
