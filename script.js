@@ -63,6 +63,7 @@ sendHatch = () => {
 
 getButton.addEventListener("click", () => {
     formWindow.innerHTML = ""
+
     var form = document.createElement("form");
     form.innerHTML = `
     <label for="id">ID:</label><br>
@@ -91,21 +92,19 @@ sendGet = () => {
       })();
 }
 
-getAllButton.addEventListener("click", () => {
+getAllButton.addEventListener("click", async() => {
     formWindow.innerHTML = ""
 
-    (async () => {
-        const rawResponse = await fetch(`http://192.168.44.18:8000/getAllChickens`, {
-            method: 'GET',
-            headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-            },
-        });
-        const content = await rawResponse.json();
-      
-        console.log(content);
-        resultWindow.innerHTML = content
-      })();
+    const rawResponse = await fetch(`http://192.168.44.18:8000/getAllChickens`, {
+        method: 'GET',
+        headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+        },
+    });
+    const content = await rawResponse.json();
+    
+    console.log(content);
+    resultWindow.innerHTML = content
 
 })
