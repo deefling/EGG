@@ -115,7 +115,12 @@ easterButton.addEventListener("click", async() => {
 
     const rawResponse = await fetch(`http://192.168.44.18:8000/easterEgg`, {
         method: 'GET',
-        mode: 'cors'
+        mode: 'cors',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+            },
     });
     
 
